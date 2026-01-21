@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "255181096684",
+    "project_id": "simas-uas-pemob2",
+    "storage_bucket": "simas-uas-pemob2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255181096684:android:dda2dcc14d70385e6387c9",
+        "android_client_info": {
+          "package_name": "com.example.uas_pemob2_simas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDYQBF1ix-8UM6CkYamGRWEtUbQ4q6pOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+# Netlify deployment configuration for UAS PEMOB2 SIMAS Flutter app
+
+[build]
+  publish = "build/web"
+  command = """
+  # Install Flutter (stable channel)
+  git clone --depth 1 https://github.com/flutter/flutter.git -b stable flutter-sdk
+  export PATH="$PWD/flutter-sdk/bin:$PATH"
+  
+  # Ensure required artifacts are available for web
+  flutter --version
+  flutter precache --web
+  
+  # Install dependencies
+  flutter pub get
+  
+  # Build web release
+  flutter build web --release
+  """
+
+[context.production]
+  publish = "build/web"
+  command = """
+  git clone --depth 1 https://github.com/flutter/flutter.git -b stable flutter-sdk
+  export PATH="$PWD/flutter-sdk/bin:$PATH"
+  flutter --version
+  flutter precache --web
+  flutter pub get
+  flutter build web --release
+  """
+
+[context.deploy-preview]
+  publish = "build/web"
+  command = """
+  git clone --depth 1 https://github.com/flutter/flutter.git -b stable flutter-sdk
+  export PATH="$PWD/flutter-sdk/bin:$PATH"
+  flutter --version
+  flutter precache --web
+  flutter pub get
+  flutter build web
+  """
+
+[context.branch-deploy]
+  publish = "build/web"
+  command = """
+  git clone --depth 1 https://github.com/flutter/flutter.git -b stable flutter-sdk
+  export PATH="$PWD/flutter-sdk/bin:$PATH"
+  flutter --version
+  flutter precache --web
+  flutter pub get
+  flutter build web
+  """
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/flutter_service_worker.js"
+  [headers.values]
+    Cache-Control = "max-age=0"
+
+[[headers]]
+  for = "/*.{js,css}"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.{woff,woff2,ttf,otf}"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
