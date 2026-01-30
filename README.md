@@ -55,90 +55,6 @@ SIMAS adalah Sistem Informasi Manajemen Masjid yang dibangun menggunakan Flutter
 
 ---
 
-## 🚀 Cara Instalasi & Menjalankan
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/NazwaKhoerunnisa/simas-uas-pemob2.git
-cd simas-uas-pemob2
-cd SIMAS
-```
-
-### 2. Install Dependencies
-
-```bash
-flutter pub get
-```
-
-### 3. Setup Firebase (Optional jika belum dikonfigurasi)
-
-```bash
-flutterfire configure
-```
-
-### 4. Jalankan Aplikasi
-
-**Di Android Emulator/Device:**
-```bash
-flutter run
-```
-
-**Di iOS Simulator/Device:**
-```bash
-flutter run -d macos
-```
-
-**Di Web:**
-```bash
-flutter run -d web
-```
-
-**Di Windows:**
-```bash
-flutter run -d windows
-```
-
----
-
-## 📁 Struktur Project
-
-```
-SIMAS/
-├── lib/
-│   ├── main.dart                 # Entry point aplikasi
-│   ├── screens/                  # Halaman aplikasi (30+ screens)
-│   │   ├── splash_page.dart
-│   │   ├── login_page.dart
-│   │   ├── register_page.dart
-│   │   ├── dashboard_page.dart
-│   │   ├── agenda_*.dart
-│   │   ├── keuangan_*.dart
-│   │   ├── qurban_*.dart
-│   │   ├── donasi_*.dart
-│   │   ├── ramadhan_*.dart
-│   │   └── jadwal_shalat_page.dart
-│   ├── core/
-│   │   ├── constants/            # App constants & colors
-│   │   └── utils/                # Utility functions & animations
-│   ├── data/
-│   │   ├── models/               # Data models (8+ models)
-│   │   └── services/             # API & Firebase services
-│   └── presentation/
-│       ├── pages/                # Complex pages
-│       ├── providers/            # State providers (Riverpod)
-│       ├── theme/                # Theme configuration
-│       └── widgets/              # Reusable widgets
-├── android/                      # Android native files
-├── ios/                          # iOS native files
-├── web/                          # Web files
-├── windows/                      # Windows native files
-├── pubspec.yaml                  # Dependencies
-└── firebase.json                 # Firebase config
-```
-
----
-
 ## 🔐 Autentikasi
 
 Aplikasi menggunakan **Firebase Authentication** untuk keamanan user:
@@ -232,58 +148,22 @@ Berikut adalah tampilan dari aplikasi SIMAS:
 
 Dokumentasi lengkap termasuk video tutorial dan screenshot telah ditambahkan di folder `docs/`:
 
-### 🎥 Video Demo - Download & Play
+### 🎥 Video Demo - Watch on YouTube
 
-Tonton demo walkthrough aplikasi SIMAS:
+Tonton demo walkthrough aplikasi SIMAS di YouTube:
 
-**📹 [Download Video Demo (56.6 MB)](docs/videos/demo-walkthrough.mp4)**
+[![SIMAS Demo Video](https://img.youtube.com/vi/fSj1RshMoY8/maxresdefault.jpg)](https://youtu.be/fSj1RshMoY8)
 
-Atau preview langsung: [docs/videos/demo-walkthrough.mp4](docs/videos/demo-walkthrough.mp4)
-
-**Cara memutar:**
-1. Klik link di atas untuk download atau preview
-2. Video akan terbuka di GitHub's video player
-3. Play langsung di browser tanpa perlu download
+**[▶️ Tonton Video Demo di YouTube](https://youtu.be/fSj1RshMoY8)** (Klik gambar atau link untuk membuka)
 
 ### Struktur Dokumentasi:
 ```
 docs/
 ├── screenshots/     # Screenshot aplikasi (29 images)
 ├── videos/          # Video tutorial & demo
-│   └── demo-walkthrough.mp4
+│   └── demo-walkthrough.mp4 (juga tersedia di YouTube)
 └── guides/          # Panduan penggunaan (coming soon)
 ```
-
----
-
-## 📌 Catatan Pengembangan
-
-* Proyek ini dikembangkan secara **individual** sebagai UAS
-* Data awalnya menggunakan **MockAPI** untuk kebutuhan pembelajaran
-* Aplikasi difokuskan pada fungsi manajemen internal masjid
-* Terintegrasi dengan **Firebase** untuk production-ready features
-
----
-
-## 📝 Lisensi
-
-Project ini adalah bagian dari **UAS Pemrograman Mobile II**.
-
----
-
-## 📞 Hubungi Kami
-
-Untuk pertanyaan atau saran, silakan hubungi melalui:
-- GitHub Issues: [simas-uas-pemob2/issues](https://github.com/NazwaKhoerunnisa/simas-uas-pemob2/issues)
-- Email: nazwa.khoerunnisa@example.com
-
----
-
-## 📎 Repository GitHub
-
-Repository ini dibuat sebagai pemenuhan tugas progres **UAS Pemrograman Mobile 2**.
-
-**Repository**: https://github.com/NazwaKhoerunnisa/simas-uas-pemob2
 
 ---
 
