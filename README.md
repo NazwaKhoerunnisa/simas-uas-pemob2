@@ -180,55 +180,51 @@ Berikut adalah tampilan dari aplikasi SIMAS:
 
 | Splash Screen | Login | Register |
 |:---:|:---:|:---:|
-| ![Splash](docs/screenshots/1-screenshot.jpg) | ![Login](docs/screenshots/2-screenshot.jpg) | ![Register](docs/screenshots/3-screenshot.jpg) |
+| ![Splash](docs/screenshots/splashscreen.jpg) | ![Login](docs/screenshots/login.jpg) | ![Register](docs/screenshots/register.jpg) |
 
-### Dashboard & Main Menu
+### Dashboard
 
-| Dashboard 1 | Dashboard 2 | Dashboard 3 |
-|:---:|:---:|:---:|
-| ![Dashboard 1](docs/screenshots/4-screenshot.jpg) | ![Dashboard 2](docs/screenshots/5-screenshot.jpg) | ![Dashboard 3](docs/screenshots/6-screenshot.jpg) |
+| Dashboard |
+|:---:|
+| ![Dashboard](docs/screenshots/dashboard.jpg) |
 
 ### Manajemen Agenda
 
-| Agenda List 1 | Agenda List 2 | Agenda Detail |
-|:---:|:---:|:---:|
-| ![Agenda List 1](docs/screenshots/7-screenshot.jpg) | ![Agenda List 2](docs/screenshots/8-screenshot.jpg) | ![Agenda Detail](docs/screenshots/9-screenshot.jpg) |
-
-| Agenda Add | Agenda Edit | Agenda Info |
-|:---:|:---:|:---:|
-| ![Agenda Add](docs/screenshots/10-screenshot.jpg) | ![Agenda Edit](docs/screenshots/11-screenshot.jpg) | ![Agenda Info](docs/screenshots/12-screenshot.jpg) |
+| List Agenda | Detail Agenda | Add Agenda | Update Agenda |
+|:---:|:---:|:---:|:---:|
+| ![List Agenda](docs/screenshots/list%20agenda.jpg) | ![Detail Agenda](docs/screenshots/detail%20agenda.jpg) | ![Add Agenda](docs/screenshots/add%20agenda.jpg) | ![Update Agenda](docs/screenshots/updte%20agenda.jpg) |
 
 ### Manajemen Keuangan
 
-| Keuangan List 1 | Keuangan List 2 | Keuangan Add |
-|:---:|:---:|:---:|
-| ![Keuangan List 1](docs/screenshots/13-screenshot.jpg) | ![Keuangan List 2](docs/screenshots/14-screenshot.jpg) | ![Keuangan Add](docs/screenshots/15-screenshot.jpg) |
-
-| Keuangan Edit | Keuangan Summary | Keuangan Report |
-|:---:|:---:|:---:|
-| ![Keuangan Edit](docs/screenshots/16-screenshot.jpg) | ![Keuangan Summary](docs/screenshots/17-screenshot.jpg) | ![Keuangan Report](docs/screenshots/18-screenshot.jpg) |
+| Keuangan Masjid | Add Keuangan | Update Keuangan | Download Laporan |
+|:---:|:---:|:---:|:---:|
+| ![Keuangan](docs/screenshots/keuangan%20masjid.jpg) | ![Add Keuangan](docs/screenshots/add%20keuangan.jpg) | ![Update Keuangan](docs/screenshots/update%20keuangan.jpg) | ![Download Laporan](docs/screenshots/unduh%20laoran%20keuangan.jpg) |
 
 ### Manajemen Qurban
 
-| Qurban List | Qurban Detail | Qurban Add |
+| Program Qurban | Detail Qurban | Add Qurban | Fitur Zakat Mal |
+|:---:|:---:|:---:|:---:|
+| ![Program Qurban](docs/screenshots/program%20qurban.jpg) | ![Detail Qurban](docs/screenshots/detail%20qurban.jpg) | ![Add Qurban](docs/screenshots/add%20qurban.jpg) | ![Fitur Zakat Mal](docs/screenshots/fitur%20zakat%20mal.jpg) |
+
+### Manajemen Donasi & Zakat
+
+| Program Donasi | Detail Donasi | Add Donasi | Edit/Delete Donasi |
+|:---:|:---:|:---:|:---:|
+| ![Program Donasi](docs/screenshots/proramdonasi.jpg) | ![Detail Donasi](docs/screenshots/detail%20donasi.jpg) | ![Add Donasi](docs/screenshots/add%20donasi.jpg) | ![Edit Donasi](docs/screenshots/edit%20delete%20donasi.jpg) |
+
+| Add Zakat Fitrah | Add Zakat Mal |
+|:---:|:---:|
+| ![Add Zakat Fitrah](docs/screenshots/Add%20zakat%20fitrah.jpg) | ![Add Zakat Mal](docs/screenshots/add%20zakat%20mal.jpg) |
+
+### Manajemen Ramadhan & Jadwal
+
+| Program Ramadhan | List Imsak & Buka | Add Jadwal Imsak/Buka | Jadwal Takjil |
+|:---:|:---:|:---:|:---:|
+| ![Program Ramadhan](docs/screenshots/proramdonasi.jpg) | ![List Imsak](docs/screenshots/list%20imsak&buka.jpg) | ![Add Imsak](docs/screenshots/add%20jadwal%20imsak&buka.jpg) | ![Jadwal Takjil](docs/screenshots/jadwal%20takjil.jpg) |
+
+| Add Jadwal Takjil | Jadwal Shalat | Edit Profil |
 |:---:|:---:|:---:|
-| ![Qurban List](docs/screenshots/19-screenshot.jpg) | ![Qurban Detail](docs/screenshots/20-screenshot.jpg) | ![Qurban Add](docs/screenshots/21-screenshot.jpg) |
-
-| Qurban Edit | Qurban Info 1 | Qurban Info 2 |
-|:---:|:---:|:---:|
-| ![Qurban Edit](docs/screenshots/22-screenshot.jpg) | ![Qurban Info 1](docs/screenshots/23-screenshot.jpg) | ![Qurban Info 2](docs/screenshots/24-screenshot.jpg) |
-
-### Manajemen Donasi
-
-| Donasi List | Donasi Detail | Donasi Add |
-|:---:|:---:|:---:|
-| ![Donasi List](docs/screenshots/25-screenshot.jpg) | ![Donasi Detail](docs/screenshots/26-screenshot.jpg) | ![Donasi Add](docs/screenshots/27-screenshot.jpg) |
-
-### Jadwal & Menu Lainnya
-
-| Jadwal Shalat | Fitur Lainnya | Profile |
-|:---:|:---:|:---:|
-| ![Jadwal Shalat](docs/screenshots/28-screenshot.jpg) | ![Fitur](docs/screenshots/29-screenshot.jpg) | - |
+| ![Add Takjil](docs/screenshots/add%20jadwal%20takjil.jpg) | ![Jadwal Shalat](docs/screenshots/jadwal%20shalat.jpg) | ![Edit Profil](docs/screenshots/edit%20profil.jpg) |
 
 ---
 
@@ -236,11 +232,20 @@ Berikut adalah tampilan dari aplikasi SIMAS:
 
 Dokumentasi lengkap termasuk video tutorial dan screenshot telah ditambahkan di folder `docs/`:
 
+### Video Demo
+
+Tonton demo walkthrough aplikasi SIMAS:
+
+📹 **[Download Video Demo](docs/videos/demo-walkthrough.mp4)** (56.6 MB)
+
+Atau buka file: `docs/videos/demo-walkthrough.mp4`
+
 ### Struktur Dokumentasi:
 ```
 docs/
-├── screenshots/     # Screenshot aplikasi (28 images)
-├── videos/          # Video tutorial penggunaan (coming soon)
+├── screenshots/     # Screenshot aplikasi (29 images)
+├── videos/          # Video tutorial & demo
+│   └── demo-walkthrough.mp4
 └── guides/          # Panduan penggunaan (coming soon)
 ```
 
