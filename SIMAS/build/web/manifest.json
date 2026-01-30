@@ -1,0 +1,47 @@
+{
+    "name": "SIMAS - Sistem Informasi Manajemen Aktivitas Sosial",
+    "short_name": "SIMAS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F0F5F2",
+    "theme_color": "#2D8659",
+    "description": "Aplikasi manajemen jamaah, keuangan, agenda, qurban, dan donasi untuk organisasi sosial Islam",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "screenshots": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "form_factor": "wide"
+        }
+    ],
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
