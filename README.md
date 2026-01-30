@@ -232,14 +232,18 @@ Berikut adalah tampilan dari aplikasi SIMAS:
 
 Dokumentasi lengkap termasuk video tutorial dan screenshot telah ditambahkan di folder `docs/`:
 
-### 🎥 Video Demo - Play Langsung di README
+### 🎥 Video Demo - Download & Play
 
 Tonton demo walkthrough aplikasi SIMAS:
 
-<video width="100%" controls>
-  <source src="docs/videos/demo-walkthrough.mp4" type="video/mp4">
-  Browser Anda tidak support video playback. <a href="docs/videos/demo-walkthrough.mp4">Download video di sini</a>
-</video>
+**📹 [Download Video Demo (56.6 MB)](docs/videos/demo-walkthrough.mp4)**
+
+Atau preview langsung: [docs/videos/demo-walkthrough.mp4](docs/videos/demo-walkthrough.mp4)
+
+**Cara memutar:**
+1. Klik link di atas untuk download atau preview
+2. Video akan terbuka di GitHub's video player
+3. Play langsung di browser tanpa perlu download
 
 ### Struktur Dokumentasi:
 ```
