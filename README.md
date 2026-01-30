@@ -6,15 +6,13 @@
 
 - **Nama**: Nazwa Khoerunnisa
 - **NIM**: 23552011093
-- **Kelas**: TIF RP 23 CNS C
+- **Kelas**: TIF RP 23 CNS A
 - **Mata Kuliah**: Pemrograman Mobile 2
 - **Tahun**: 2025
 
 ---
 
 ## 📱 Tentang Aplikasi
-
-SIMAS adalah Sistem Informasi Manajemen Masjid yang dibangun menggunakan Flutter dan terintegrasi dengan Firebase. Aplikasi ini menyediakan berbagai fitur untuk meningkatkan efisiensi pengelolaan masjid dengan interface yang user-friendly dan responsif.
 
 ### ✨ Fitur Utama
 
@@ -88,7 +86,7 @@ Aplikasi menggunakan **Material Design** dengan tema yang disesuaikan untuk suas
 
 ---
 
-## 📸 Galeri Screenshot
+## � Dokumentasi Lengkap
 
 Berikut adalah tampilan dari aplikasi SIMAS:
 
@@ -144,26 +142,19 @@ Berikut adalah tampilan dari aplikasi SIMAS:
 
 ---
 
-## 📚 Dokumentasi Lengkap
-
-Dokumentasi lengkap termasuk video tutorial dan screenshot telah ditambahkan di folder `docs/`:
-
-### 🎥 Video Demo - Watch on YouTube
+## 🎥 Video Demo
 
 Tonton demo walkthrough aplikasi SIMAS di YouTube:
 
 [![SIMAS Demo Video](https://img.youtube.com/vi/fSj1RshMoY8/maxresdefault.jpg)](https://youtu.be/fSj1RshMoY8)
 
-**[▶️ Tonton Video Demo di YouTube](https://youtu.be/fSj1RshMoY8)** (Klik gambar atau link untuk membuka)
+**[▶️ Tonton Video Demo di YouTube](https://youtu.be/fSj1RshMoY8)**
 
-### Struktur Dokumentasi:
-```
-docs/
-├── screenshots/     # Screenshot aplikasi (29 images)
-├── videos/          # Video tutorial & demo
-│   └── demo-walkthrough.mp4 (juga tersedia di YouTube)
-└── guides/          # Panduan penggunaan (coming soon)
-```
+---
+
+## 🌐 Akses Aplikasi
+
+**Aplikasi Live**: https://simas16.netlify.app/
 
 ---
 
