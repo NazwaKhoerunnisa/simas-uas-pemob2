@@ -12,8 +12,6 @@
 
 ---
 
-## 📱 Tentang Aplikasi
-
 ### ✨ Fitur Utama
 
 - **🗓️ Manajemen Agenda**: Buat, edit, dan kelola agenda kegiatan masjid
